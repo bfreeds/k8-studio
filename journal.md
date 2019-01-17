@@ -17,3 +17,9 @@ This is a log of work sessions, lessons learned, ideas, and thoughts that come f
   - **VPC + Subnets**  
     - Terraform directorty structure to follow module pattern, based on this talk by Nicki Watt:  [Evolving Your Infrastructure with Terraform](https://www.youtube.com/watch?v=wgzgVm7Sqlk)
     - ![](.docs/aws-tf-core.png)
+    - Scaffold core terraform module, commit (a5e520f).
+
+**Next Steps**  
+- Learn what networking EKS will require
+- Implement it in the core module, deploy to AWS
+- Use the EKS Terraform module above to provision the 2-node cluster
