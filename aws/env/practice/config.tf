@@ -1,4 +1,3 @@
-
 # Variables for the provisioning of practice infrastructure
 
 variable "aws_profile" {
